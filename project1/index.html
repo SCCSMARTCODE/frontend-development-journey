@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Hello HTML5 World</title>
+<!-- Simple hello world in HTML5 example -->
+</head>
+<body>
+<h1>Welcome to the Future World of HTML5</h1>
+<hr>
+<p>HTML5 <em>really</em> isn't so hard!</p>
+<h1 class=“primary”>Example Heading</h1>
+
+<time datetime="now()">now</time>
+
+<p>Soon you will &hearts; using HTML.</p>
+<p>You can put lots of text here if you want.
+We could go on and on with fake text for you
+to read, but let's get back to the book.</p>
+
+<p><label>Favorite Dog: <input type="text" list="dogs"></label></p>
+<datalist id="dogs">
+ <option>Angus</option>
+ <option>Tucker</option>
+ <option>Cisco</option>
+ <option>Sabrina</option>
+</datalist>
+
+<label>Search:<input type="search" name="query" 
+    id="searchBox" autofocus></label>
+
+<input type="text" name="firstname" id="firstname" 
+    placeholder="Enter your name here" autocomplete>
+
+    <menu type="toolbar" id="fileMenu" label="File">
+        <li><a href="javascript:newItem();">New</a></li>
+        <li><a href="javascript:openItem();">Open</a></li>
+        <li><a href="javascript:closeItem();">Close</a></li>
+        <hr>
+        <li><a href="javascript:saveItem();">Save</a></li>
+        <li><a href="javascript:saveAsItem();">Save as...</a></li>
+        <hr>
+        <li><a href="javascript:exitApp();">Exit</a></li>
+       </menu>
+
+       <menu type="command" label="Main Menu">
+        <command type="command" label="Add" icon="add.png">
+        <command type="command" label="Edit" icon="edit.png">
+        <command type="command" label="Delete" icon="delete.png">
+        <hr>
+        <menu type="command" label="Skin" id="skinMenu">
+        <command type="radio" radiogroup="skin" label="Classic">
+        <command type="radio" radiogroup="skin" label="Modern" checked>
+        <command type="radio" radiogroup="skin" label="Neo">
+        </menu>
+        <hr>
+        <command type="checkbox" label="Secure Mode">
+       </menu>
+
+       <p>Warp Drive Output: <meter min="0" max="10" low="3" optimum="7" high="9" 
+        value="2.5" title="Captain she can't take much more of this!"></meter></p>
+
+        <p>Progress: <progress id="progressBar" max="100.00" value="33.1">
+            33.1%</progress></p>
+</body>
+</html>
