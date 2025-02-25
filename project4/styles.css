@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#myFormSection{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(181, 173, 173);
+    padding: 5px;
+}
+
+#myFormSection input[type="text"]{
+    margin: 5px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#myFormSection input[type="email"]{
+    margin: 5px;
+    font-size: 0.7rem;
+    padding: 5px;
+}
+
+#myFormSection input[type="file"]{
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#myFormSection input[type="submit"]{
+    align-self: flex-end;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
